@@ -104,7 +104,7 @@ const Navbar = () => {
         <div className="flex flex-col text-5xl gap-y-2 md:text-6xl lg:text-8xl">
           {["home", "services", "about", "work", "contact"].map(
             (section, index) => (
-              <div key={index} ref={(el) => (linksRef.current[index] = el)}>
+              <div key={index} ref={el => (linksRef.current[index] = el)}>
                 <Link
                   className="transition-all duration-300 cursor-pointer hover:text-white"
                   to={`${section}`}
@@ -125,7 +125,7 @@ const Navbar = () => {
           <div className="font-light">
             <p className="tracking-wider text-white/50">E-mail</p>
             <p className="text-xl tracking-widest lowercase text-pretty">
-              JohnDoe@gmail.com
+              princesoni21332@gmail.com
             </p>
           </div>
           <div className="font-light">
@@ -147,7 +147,7 @@ const Navbar = () => {
         </div>
       </nav>
       <div
-        className="fixed z-50 flex flex-col items-center justify-center gap-1 transition-all duration-300 bg-black rounded-full cursor-pointer w-14 h-14 md:w-20 md:h-20 top-4 right-10"
+        className="fixed z-50 flex flex-col items-center justify-center gap-1 transition-all duration-300 bg-black rounded-full cursor-pointer w-10 h-10 md:w-10 md:h-10 top-4 right-10"
         onClick={toggleMenu}
         style={
           showBurger
