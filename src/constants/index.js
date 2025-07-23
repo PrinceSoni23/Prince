@@ -153,21 +153,21 @@ export const projects = [
       { id: 4, name: "Material UI" },
     ],
   },
-  // {
-  //   id: 6,
-  //   name: "Digital Game Store",
-  //   description:
-  //     "A gaming platform featuring discounted titles, top sellers, and genre-based browsing.",
-  //   href: "",
-  //   image: "/assets/projects/game-store.jpg",
-  //   bgImage: "/assets/backgrounds/curtains.jpg",
-  //   frameworks: [
-  //     { id: 1, name: "Svelte" },
-  //     { id: 2, name: "Node.js" },
-  //     { id: 3, name: "MongoDB" },
-  //     { id: 4, name: "Chakra UI" },
-  //   ],
-  // },
+  {
+    id: 6,
+    name: "Tanya Makeovers",
+    description:
+      "A beauty and wellness platform offering personalized makeovers and beauty tips.",
+    href: "",
+    image: "/assets/projects/tanmake.png",
+    bgImage: "/assets/backgrounds/curtains.jpg",
+    frameworks: [
+      { id: 1, name: "Next.js" },
+      { id: 2, name: "Node.js" },
+      { id: 3, name: "MongoDB" },
+      { id: 4, name: "Aceternity UI" },
+    ],
+  },
 ];
 export const socials = [
   { name: "Instagram", href: "https://www.instagram.com/princesoni__777" },
