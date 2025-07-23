@@ -158,7 +158,7 @@ export const projects = [
     name: "Tanya Makeovers",
     description:
       "A beauty and wellness platform offering personalized makeovers and beauty tips.",
-    href: "",
+    href: "https://tanyamakeovers.vercel.app/",
     image: "/assets/projects/tanmake.png",
     bgImage: "/assets/backgrounds/curtains.jpg",
     frameworks: [
